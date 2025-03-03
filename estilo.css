@@ -54,3 +54,21 @@ footer {
     width: 100%;
     text-align: left;
 }
+
+/* Media Queries para diseño responsive */
+@media screen and (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu ul li {
+        margin: 10px 0;
+    }
+    
+    .container {
+        max-width: 90%;
+    }
+}
+
+
